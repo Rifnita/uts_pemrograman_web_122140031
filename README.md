@@ -23,6 +23,8 @@ Aplikasi React untuk menemukan dan menjelajahi kafe di Bandar Lampung, Indonesia
 - PropTypes untuk validasi tipe data
 
 ## Struktur Proyek
+
+```
 src/
 ├── components/
 │   ├── CafeCard.js           # Komponen untuk menampilkan kafe
@@ -45,67 +47,69 @@ src/
 │   └── styles/
 │       └── App.css           # Style aplikasi
 └── App.js                    # Komponen utama aplikasi
+```
 
 ## Instalasi
 
 1. Clone repository:
-```bash
-git clone https://github.com/rifnita/uts_pemrograman_web_122140031.git
-cd uts_pemrograman_web_[NIM]
+   ```bash
+   git clone https://github.com/rifnita/uts_pemrograman_web_122140031.git
+   cd uts_pemrograman_web_122140031
+   ```
 
-Install dependensi:
-npm install
+2. Install dependensi:
+   ```bash
+   npm install
+   ```
 
-Jalankan server pengembangan:
-npm start
+3. Jalankan server pengembangan:
+   ```bash
+   npm start
+   ```
 
-Buka browser dan kunjungi http://localhost:3000
+4. Buka browser dan kunjungi `http://localhost:3000`
 
-Highlight Proyek
+## Highlight Proyek
+
 Aplikasi ini memenuhi persyaratan untuk tugas UTS:
-1. Implementasi Komponen (20%)
 
-Beberapa komponen fungsional dengan hierarki yang tepat
-Penggunaan props yang efisien untuk komunikasi antar komponen
-Implementasi PropTypes untuk validasi
-Manajemen state lokal di komponen
+### 1. Implementasi Komponen (20%)
+- Beberapa komponen fungsional dengan hierarki yang tepat
+- Penggunaan props yang efisien untuk komunikasi antar komponen
+- Implementasi PropTypes untuk validasi
+- Manajemen state lokal di komponen
 
-2. Penggunaan React Hooks (20%)
+### 2. Penggunaan React Hooks (20%)
+- useState untuk state komponen
+- useEffect untuk manajemen lifecycle dan side effects
+- useCallback untuk optimasi referensi fungsi
+- Custom hooks untuk logika yang dapat digunakan kembali
 
-useState untuk state komponen
-useEffect untuk manajemen lifecycle dan side effects
-useCallback untuk optimasi referensi fungsi
-Custom hooks untuk logika yang dapat digunakan kembali
+### 3. Manajemen State (15%)
+- Context API untuk state aplikasi (favorit)
+- Organisasi state yang efisien
+- Penyimpanan persisten dengan localStorage
 
-3. Manajemen State (15%)
+### 4. Routing (15%)
+- React Router untuk navigasi halaman
+- Routing dinamis dengan parameter
+- Navigasi terprogram
 
-Context API untuk state aplikasi (favorit)
-Organisasi state yang efisien
-Penyimpanan persisten dengan localStorage
+### 5. Manajemen Data (15%)
+- Organisasi data yang efisien
+- Penanganan state loading
+- Pengelolaan error
 
-4. Routing (15%)
+### 6. Desain UI/UX (10%)
+- Desain responsif untuk semua perangkat
+- Antarmuka pengguna yang intuitif
+- Styling yang konsisten
 
-React Router untuk navigasi halaman
-Routing dinamis dengan parameter
-Navigasi terprogram
+### 7. Struktur Kode (5%)
+- Struktur proyek yang terorganisir dengan baik
+- Konvensi penamaan yang konsisten
+- Komponen yang dapat digunakan kembali
 
-5. Manajemen Data (15%)
+## Author
 
-Organisasi data yang efisien
-Penanganan state loading
-Pengelolaan error
-
-6. Desain UI/UX (10%)
-
-Desain responsif untuk semua perangkat
-Antarmuka pengguna yang intuitif
-Styling yang konsisten
-
-7. Struktur Kode (5%)
-
-Struktur proyek yang terorganisir dengan baik
-Konvensi penamaan yang konsisten
-Komponen yang dapat digunakan kembali
-
-Author
-Dibuat oleh [Rifnita Cahyani Hidayat] untuk UTS Pemrograman Web ITERA.
+Dibuat oleh Rifnita Cahyani Hidayat untuk UTS Pemrograman Web ITERA.
